@@ -41,8 +41,8 @@ div[class*="NavBar-buttonSeparator-"] {
     border-radius: 4px;
   }
   div[class*="QuickSearch-container-"] div[class*="QuickSearchResults-container-"] {
-    /* display: none;
-    padding-right: 10px; */
+    display: none;
+    padding-right: 10px;
   }
   div[class*="QuickSearch-container-"]:focus-within div[class*="QuickSearchResults-container-"] {
     display: block;
@@ -130,7 +130,6 @@ div[class*="NavBar-buttonSeparator-"] {
   }
   [class*="NavBar-container-"] {
     height: 40px !important;
-    overflow: hidden;
   }
   [class*="DashboardPage-dashboardPageContent-"] {
     padding: 0 20px 20px;
