@@ -23,6 +23,11 @@ div[class*="NavBar-buttonSeparator-"] {
     display: block;
     width: 100%;
   }
+  svg[class*="QuickSearchInput-searchIcon-"] {
+    width: 32px;
+    margin: 0;
+    margin-top: 4px;
+  }
   i[class*="QuickSearchInput-searchIcon-"] {
     margin-left: 9px;
     color: hsla(0, 0%, 100%, .7);
@@ -33,10 +38,11 @@ div[class*="NavBar-buttonSeparator-"] {
     z-index: 1;
     width: 40px;
     transition: ease width 0.3s;
+    border-radius: 4px;
   }
   div[class*="QuickSearch-container-"] div[class*="QuickSearchResults-container-"] {
-    display: none;
-    padding-right: 10px;
+    /* display: none;
+    padding-right: 10px; */
   }
   div[class*="QuickSearch-container-"]:focus-within div[class*="QuickSearchResults-container-"] {
     display: block;
