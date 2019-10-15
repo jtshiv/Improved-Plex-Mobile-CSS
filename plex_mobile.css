@@ -420,7 +420,7 @@ div[class*="NavBar-buttonSeparator-"] {
   div[class*="PageHeaderDivider-pageHeaderDivider"] {
     display: none;
   }
-  div[class*="DiscoverPage-discoverPageList"] {
+  div[class*="DiscoverPage-discoverPageL#ist"] {
     padding: 0;
   }
   div[class*="PlayerControls-hasLandscapePoster-"] div[class*="PlayerControls-buttonGroupCenter-"] {
