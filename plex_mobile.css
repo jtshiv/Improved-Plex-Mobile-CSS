@@ -44,9 +44,7 @@ div[class*="NavBar-buttonSeparator-"] {
     display: none;
     width: calc(100% - 10px);
     margin-right: 10px;
-  }
-  div[class*="QuickSearch-container-"]:focus-within div[class*="QuickSearchResults-container-"] {
-    display: block;
+    white-space: nowrap;
   }
   div[class*="QuickSearchInput-container-"]:focus-within {
     background: #FFF;
@@ -55,6 +53,8 @@ div[class*="NavBar-buttonSeparator-"] {
   }
   div[class*="QuickSearchInput-container-"] input[data-qa-id="quickSearchInput"] {
     width: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
   div[class*="QuickSearchProvider-title"], a[class*="QuickSearchPlaceholderLink-placeholder-"] {
     width: auto;
